@@ -336,3 +336,23 @@ nav{
 
 
 }
+.main{
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+    padding: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center; */
+}
+.hover-1:hover{
+    border-radius: 50px;
+    border: 2px solid pink;
+    padding: 5px;
+}
