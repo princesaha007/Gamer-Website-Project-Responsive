@@ -340,6 +340,9 @@ nav{
     margin-top: 150px;
     margin-left: 150px;
     margin-right: 150px;
+    align-items: center;
+    margin-bottom: 50px;
+    
     
     padding: auto;
     display: grid;
@@ -353,6 +356,32 @@ nav{
 }
 .hover-1:hover{
     border-radius: 50px;
-    border: 2px solid pink;
-    padding: 5px;
+    border: 2px solid rgb(230, 113, 133);
+    padding: 1px;
+}
+.foot{
+    height: 400px;
+    /* border: #c15aa2 solid 2px; */
+    margin: auto;
+    background-color: rgb(1, 1, 30);
+}
+.foot-logo{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.hh{
+    font-size: 30px;
+    margin-top: 80px;
+    color: white;
+   
+}
+.last{
+    text-align: center;
+    color: grey;
+    margin-top: 30px;
+    font-size: 12px;
 }
